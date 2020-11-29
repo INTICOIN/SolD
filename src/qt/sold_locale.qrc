@@ -1,0 +1,25 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="ar">locale/sold_ar.qm</file>
+        <file alias="bg">locale/sold_bg.qm</file>
+        <file alias="de">locale/sold_de.qm</file>
+        <file alias="en">locale/sold_en.qm</file>
+        <file alias="es">locale/sold_es.qm</file>
+        <file alias="fi">locale/sold_fi.qm</file>
+        <file alias="fr">locale/sold_fr.qm</file>
+        <file alias="it">locale/sold_it.qm</file>
+        <file alias="ja">locale/sold_ja.qm</file>
+        <file alias="ko">locale/sold_ko.qm</file>
+        <file alias="nl">locale/sold_nl.qm</file>
+        <file alias="pl">locale/sold_pl.qm</file>
+        <file alias="pt">locale/sold_pt.qm</file>
+        <file alias="ro">locale/sold_ro.qm</file>
+        <file alias="ru">locale/sold_ru.qm</file>
+        <file alias="sk">locale/sold_sk.qm</file>
+        <file alias="th">locale/sold_th.qm</file>
+        <file alias="tr">locale/sold_tr.qm</file>
+        <file alias="vi">locale/sold_vi.qm</file>
+        <file alias="zh_CN">locale/sold_zh_CN.qm</file>
+        <file alias="zh_TW">locale/sold_zh_TW.qm</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,6 @@
+usr/local/bin/sold-qt usr/bin
+share/pixmaps/sold32.xpm usr/share/pixmaps
+share/pixmaps/sold16.xpm usr/share/pixmaps
+share/pixmaps/sold128.png usr/share/pixmaps
+debian/sold-qt.desktop usr/share/applications
+debian/sold-qt.protocol usr/share/kde4/services/

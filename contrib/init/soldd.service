@@ -1,0 +1,25 @@
+# It is not recommended to modify this file in-place, because it will
+# be overwritten during package upgrades. If you want to add further
+# options or overwrite existing ones then use
+# $ systemctl edit soldd.service
+# See "man systemd.service" for details.
+
+# Note that almost all daemon options could be specified in
+# /etc/sold/sold.conf
+
+[Unit]
+Description=SolD daemon
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/soldd -daemon -conf=/etc/sold/sold.conf -pid=/run/soldd/soldd.pid
+# Creates /run/sold owned by soldcore
+RuntimeDirectory=soldd
+User=soldcore
+Type=forking
+PIDFile=/run/soldd/soldd.pid
+Restart=on-failure
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
